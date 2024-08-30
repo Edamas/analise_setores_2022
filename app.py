@@ -21,7 +21,7 @@ def carregar_dados(arquivo):
 @st.cache_data
 def gerar_dicionario():
     with open('dicionario_variaveis.csv', 'rt', encoding='utf-8') as file:
-        dicionario_raw = [line.split('\t') for line in file.read().split('\n')]
+        dicionario_raw = [line.split(',') for line in file.read().split('\n')]
     return pd.DataFrame(dicionario_raw[1:], columns=dicionario_raw[0])
 
 
