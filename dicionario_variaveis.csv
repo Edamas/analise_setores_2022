@@ -1,0 +1,30 @@
+VARIÁVEL,TIPO,TAMANHO,DESCRIÇÃO
+CD_SETOR,texto,16,Geocódigo de Setor Censitário
+AREA_KM2,real,,Área do Setor Censitário em quilômetros quadrados
+CD_REGIAO,numérico,1,Código das Grandes Regiões (Regiões Geográficas)
+NM_REGIAO,texto,15,Nome das Grandes Regiões (Regiões Geográficas)
+CD_UF,numérico,2,Código da Unidade da Federação
+NM_UF,texto,20,Nome da Unidade da Federação
+CD_MUN,numérico,7,Código do município
+NM_MUN,texto,50,Nome do município
+CD_DIST,numérico,9,Código do distrito
+NM_DIST,texto,50,Nome do distrito
+CD_SUBDIS,numérico,11,Código do subdistrito
+NM_SUBDIST,texto,50,Nome do subdistrito
+CD_MICRO,numérico,5,Código da microrregião
+NM_MICRO,texto,50,Nome da microrregião
+CD_MESO,numérico,4,Código da mesorregião
+NM_MESO,texto,50,Nome da mesorregião
+CD_RGI,numérico,6,Código da região geográfica imediata
+NM_RGI,texto,50,Nome da região geográfica imediata
+CD_RGINT,numérico,4,Código da região geográfica intermediária
+NM_RGINT,texto,50,Nome da região geográfica intermediária
+CD_CONCURB,numérico,7,Código da Concentração Urbana
+NM_CONCURB,texto,50,Nome da Concentração Urbana
+V0001,numérico,,Total de pessoas
+V0002,numérico,,Total de Domicílios (DPPO + DPPV + DPPUO + DPIO + DCCM + DCSM)
+V0003,numérico,,Total de Domicílios Particulares (DPPO + DPPV + DPPUO + DPIO)
+V0004,numérico,,Total de Domicílios Coletivos (DCCM + DCSM)
+V0005,real,,Média de moradores em Domicílios Particulares Ocupados (Total pessoas em Domicílios Particulares Ocupados / DPPO + DPIO)
+V0006,real,,Percentual de Domicílios Particulares Ocupados Imputados (Total DPO imputados / Total DPO)
+V0007,numérico,,Total de Domicílios Particulares Ocupados (DPPO + DPIO)
